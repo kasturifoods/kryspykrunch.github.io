@@ -39,7 +39,7 @@
 .gallery-r10-thq-slider-slide-elm3 {
   display: flex;
   background-size: 100%;
-  background-image: url("public/Gallery/1-500h.png");
+  background-image: 777667e5-4e32-425e-9d2a-8028b453031f;
 }
  
 .gallery-r10-thq-slider-pagination-elm {
@@ -56,6 +56,9 @@
 @media(max-width: 479px) {
   .gallery-r10-thq-thq-gallery3-elm-elm {
     position: static;
+  }
+  .gallery-r10-thq-slider-slide-elm3 {
+    background-image: url("public/Gallery/1-500h.png");
   }
   .gallery-r10root-class-name1 {
     position: relative;
@@ -121,7 +124,7 @@
   }
 }
 
-.features-wrapper-nrne {
+.features-wrapper-bkxs {
   display: contents;
 }
  
@@ -180,7 +183,7 @@
   }
 }
 
-.features-wrapper-5qtp {
+.features-wrapper-tqsu {
   display: contents;
 }
  
@@ -976,6 +979,7 @@
  
 .home-thq-burger-menu-elm {
   display: none;
+  visibility: hidden;
   align-items: center;
   justify-content: center;
 }
@@ -994,6 +998,7 @@
   padding: 32px;
   z-index: 1000;
   position: fixed;
+  visibility: hidden;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
@@ -1051,7 +1056,7 @@
   margin-bottom: var(--dl-layout-space-unit);
 }
  
-.home-thq-book-elm1 {
+.home-thq-book-elm {
   text-align: center;
   text-decoration: none;
 }
@@ -1540,7 +1545,7 @@
 }
  
 .home-text31 {
-  width: 440px;
+  width: 253px;
   font-size: 56px;
   max-width: 600px;
   font-style: normal;
@@ -1617,49 +1622,6 @@
   line-height: 27px;
 }
  
-.home-thq-form-elm {
-  gap: var(--dl-layout-space-fourunits);
-  width: 655px;
-  height: 287px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
- 
-.home-thq-inputs-elm {
-  gap: var(--dl-layout-space-twounits);
-  width: 100%;
-  display: flex;
-  max-width: 600px;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
- 
-.home-thq-lower-elm {
-  gap: var(--dl-layout-space-twounits);
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
- 
-.home-thq-button-elm {
-  gap: var(--dl-layout-space-oneandhalfunits);
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
- 
-.home-thq-book-elm2 {
-  width: 100%;
-  background-color: rgba(243, 18, 22, 0.6);
-}
- 
 .home-thq-footer-elm {
   width: 100%;
   display: flex;
@@ -1699,7 +1661,7 @@
   text-decoration: none;
 }
  
-.home-text52 {
+.home-text51 {
   color: rgb(255, 255, 255);
   font-size: 14px;
   line-height: 21px;
@@ -2232,12 +2194,6 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .home-thq-form-elm {
-    gap: var(--dl-layout-space-threeunits);
-  }
-  .home-thq-inputs-elm {
-    gap: var(--dl-layout-space-oneandhalfunits);
-  }
   .home-thq-footer-elm {
     padding-top: var(--dl-layout-space-fourunits);
     padding-left: var(--dl-layout-space-oneandhalfunits);
@@ -2247,7 +2203,7 @@
   .home-image19 {
     width: 110px;
   }
-  .home-text52 {
+  .home-text51 {
     font-size: 12px;
     line-height: 18px;
   }
@@ -2276,7 +2232,7 @@
   }
   .home-thq-content-elm1 {
     width: auto;
-    height: 593px;
+    height: 624px;
     display: flex;
     position: relative;
     align-self: center;
@@ -2285,6 +2241,7 @@
     width: auto;
     height: auto;
     align-items: center;
+    padding-top: var(--dl-layout-space-unit);
   }
   .home-thq-header-elm18 {
     width: auto;
@@ -2299,12 +2256,12 @@
   }
   .home-thq-heading-elm18 {
     width: 100%;
-    height: 495px;
+    height: 402px;
     align-self: center;
     flex-direction: column;
   }
   .home-thq-features-elm {
-    height: 509px;
+    height: 499px;
     display: flex;
     padding-top: var(--dl-layout-space-unit);
     padding-bottom: var(--dl-layout-space-unit);
@@ -2312,7 +2269,7 @@
   .home-thq-products-elm {
     height: 824px;
     display: flex;
-    padding-bottom: var(--dl-layout-space-unit);
+    padding-bottom: var(--dl-layout-space-fourunits);
   }
   .home-thq-content-elm3 {
     height: 696px;
@@ -2341,8 +2298,10 @@
     font-weight: 600;
   }
   .home-thq-gallery-elm {
-    height: 451px;
+    height: 507px;
     display: flex;
+    padding: var(--dl-layout-space-twounits);
+    position: relative;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -2351,22 +2310,29 @@
   .home-thq-heading-elm24 {
     font-size: 30px;
     align-self: center;
-    margin-top: 0px;
+    margin-top: var(--dl-layout-space-twounits);
     text-align: left;
   }
   .home-thq-about-us-elm {
+    position: relative;
     padding-top: var(--dl-layout-space-twounits);
     padding-bottom: var(--dl-layout-space-twounits);
+  }
+  .home-thq-content-elm4 {
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   .home-thq-header-elm20 {
     padding-right: 0px;
   }
   .home-thq-why-elm {
+    position: relative;
     padding-top: var(--dl-layout-space-twounits);
     padding-bottom: var(--dl-layout-space-twounits);
   }
   .home-thq-contact-us-elm {
-    height: 723px;
+    height: 432px;
+    position: relative;
     padding-top: var(--dl-layout-space-unit);
     padding-bottom: var(--dl-layout-space-unit);
   }
@@ -2384,27 +2350,19 @@
   .home-container2 {
     width: 100%;
     height: 276px;
+    align-items: stretch;
     padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
     flex-direction: column;
+    justify-content: center;
   }
   .home-text32 {
     height: 123px;
     margin-right: 0px;
   }
-  .home-thq-form-elm {
-    width: 479px;
-    height: 443px;
-    padding-left: var(--dl-layout-space-twounits);
-    padding-right: var(--dl-layout-space-twounits);
-  }
-  .home-thq-inputs-elm {
-    width: 340px;
-  }
-  .home-thq-book-elm2 {
-    background-color: rgba(243, 18, 22, 0.6);
-  }
   .home-thq-footer-elm {
     height: 754px;
+    position: relative;
     padding-top: var(--dl-layout-space-twounits);
     padding-bottom: var(--dl-layout-space-twounits);
   }
@@ -2427,5 +2385,9 @@
     color: rgb(255, 255, 255);
     font-style: normal;
     font-weight: 600;
+  }
+  .home-thq-copyright-elm6 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
   }
 }
